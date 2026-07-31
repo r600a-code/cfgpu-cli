@@ -1,0 +1,300 @@
+{
+  "images": [
+    {
+      "rank": 1,
+      "name": "ComfyUI",
+      "runtime": "10145 h",
+      "type": "官方镜像",
+      "category": "图像生成",
+      "description": "ComfyUI 是一个模块化、可定制化的 Stable Diffusion 工作流操作界面，专为追求高效工作流和灵活控制的AI绘画创作者设计。"
+    },
+    {
+      "rank": 2,
+      "name": "ComfyUI开箱即用版",
+      "runtime": "11817 h",
+      "type": "官方镜像",
+      "category": "图像生成",
+      "description": "ComfyUI开箱即用版，将常用的节点内置部署。启动实例就可以直接运行工作流。"
+    },
+    {
+      "rank": 3,
+      "name": "QwenPaw（CoPaw）",
+      "runtime": "3569 h",
+      "type": "官方镜像",
+      "category": "AI助手",
+      "description": "您的个人 AI 助手；支持多个聊天应用，并且功能可轻松扩展。"
+    },
+    {
+      "rank": 4,
+      "name": "ComfyUI-TRELLIS2",
+      "runtime": "1866 h",
+      "type": "官方镜像",
+      "category": "3D生成",
+      "description": "微软最先进的图像到 3D 生成模型。可从单张图片生成带有 PBR（基于物理的渲染）材质的高质量 3D 网格模型。"
+    },
+    {
+      "rank": 5,
+      "name": "Pixal3D-ComfyUI",
+      "runtime": "11 h",
+      "type": "官方镜像",
+      "category": "3D生成",
+      "description": "面向 TencentARC/Pixal3D 的ComfyUI自定义节点：支持图像转3D生成、带纹理GLB导出、FlashAttention 2/3版本选择、手动相机控制，以及ComfyUI模型卸载功能。"
+    },
+    {
+      "rank": 6,
+      "name": "DeepSeek-R1-8B 单卡（手动部署版）",
+      "runtime": "1871 h",
+      "type": "官方镜像",
+      "category": "大语言模型",
+      "description": "DeepSeek-R1-Distill-Qwen-8B 是一个基于 Qwen 架构的蒸馏模型，参数规模为 8B。该模型通过知识蒸馏技术从更大的 DeepSeek-R1 模型中提取关键知识，旨在在保持较高推理性能的同时，显著降低资源消耗和推理成本。"
+    },
+    {
+      "rank": 7,
+      "name": "DeepSeek-R1-8B 单卡部署版",
+      "runtime": "13630 h",
+      "type": "官方镜像",
+      "category": "大语言模型",
+      "description": "DeepSeek-R1-Distill-Qwen-8B 是一个基于 Qwen 架构的蒸馏模型，参数规模为 8B。该模型通过知识蒸馏技术从更大的 DeepSeek-R1 模型中提取关键知识，旨在在保持较高推理性能的同时，显著降低资源消耗和推理成本。"
+    },
+    {
+      "rank": 8,
+      "name": "DeepSeek-R1-32B 4卡部署版",
+      "runtime": "32 h",
+      "type": "官方镜像",
+      "category": "大语言模型",
+      "description": "本镜像提供 API以及 openui 两种使用方式，推理方案采用openui + vllam , 需要四卡启动。DeepSeek-R1-Distill-Qwen-32B 基于Qwen架构参数规模为32B。最大上下文长度为 64K。采用知识蒸馏技术压缩模型，在保持高性能的同时大幅降低推理成本和资源占用，适用于对话、问答及多场景文本生成任务，兼顾效果与部署效率。性能指标在多种基准测试中优于 OpenAI-o1-mini，其中高数学能力更强。"
+    },
+    {
+      "rank": 9,
+      "name": "DeepSeek-R1-14B 2卡部署版",
+      "runtime": "70 h",
+      "type": "官方镜像",
+      "category": "大语言模型",
+      "description": "本镜像提供 API以及 openui 两种使用方式，推理方案采用openui + vllam , 需要两卡启动。DeepSeek-R1-Distill-Qwen-14B 是一个14B参数的模型，经过蒸馏优化，体积约为28GB。号称保留了95%的性能，适合个人训练研究。"
+    },
+    {
+      "rank": 10,
+      "name": "Ollama",
+      "runtime": "28 h",
+      "type": "官方镜像",
+      "category": "LLM工具",
+      "description": "Ollama 是一个强大的开源工具，专注于本地化大语言模型（LLM）的部署与运行。它支持用户快速下载、配置和运行各类先进的 AI 模型（如 LLaMA、Mistral、Gemma 等）。"
+    },
+    {
+      "rank": 11,
+      "name": "vLLM",
+      "runtime": "2819 h",
+      "type": "官方镜像",
+      "category": "LLM工具",
+      "description": "VLLM是一个高效、灵活的大语言模型（LLM）推理和服务库，专注于优化大规模语言模型的部署与推理性能。由加州大学伯克利分校团队开发，VLLM 通过创新的 PagedAttention 技术（类似操作系统的内存分页管理）显著提升显存利用率，支持高并发、低延迟的文本生成，尤其适合处理长上下文场景。"
+    },
+    {
+      "rank": 12,
+      "name": "IoPanit",
+      "runtime": "91 h",
+      "type": "官方镜像",
+      "category": "图像处理",
+      "description": "部署IoPaint支持的全量模型与插件，超级好用的万能AI工具，抠图，擦除，扩图，形状替换，环境感知等，功能十分全面"
+    },
+    {
+      "rank": 13,
+      "name": "YOLO V5",
+      "runtime": "72 h",
+      "type": "官方镜像",
+      "category": "目标检测",
+      "description": "高效且准确的目标检测算法，主要用于实时识别和定位图像或视频流中的物体"
+    },
+    {
+      "rank": 14,
+      "name": "RVC-WebUI",
+      "runtime": "18 h",
+      "type": "官方镜像",
+      "category": "语音处理",
+      "description": "基于检索的语音转换框架，它主要用于实现不同说话人之间的语音转换，包括歌曲翻唱和实时变声"
+    },
+    {
+      "rank": 15,
+      "name": "Ultralytics YOLO11",
+      "runtime": "24 h",
+      "type": "官方镜像",
+      "category": "目标检测",
+      "description": "Ultralytics YOLO11 是一款先进的模型，基于此前 YOLO 版本的成功经验进行了升级，新增了许多功能和改进，进一步提升了性能和灵活性。"
+    },
+    {
+      "rank": 16,
+      "name": "腾讯混元(hunyuan)视频模型",
+      "runtime": "938 h",
+      "type": "官方镜像",
+      "category": "视频生成",
+      "description": "腾讯混元视频模型 ComfyUI"
+    },
+    {
+      "rank": 17,
+      "name": "lora-train webui v1.10.0",
+      "runtime": "372 h",
+      "type": "官方镜像",
+      "category": "模型训练",
+      "description": "一个真正的 Stable Diffusion 训练工作室，将所有功能集成在一个 WebUI 中，为您提供全面的训练支持。"
+    },
+    {
+      "rank": 18,
+      "name": "sd-webui-aki-all-models_v4.9",
+      "runtime": "1288 h",
+      "type": "官方镜像",
+      "category": "图像生成",
+      "description": "本版本基于秋葉整合包进行部署，并收集了近乎全量sd基础模型、VAE模型、大量有意思的LORA模型、行业模型等，方便开箱即用。"
+    },
+    {
+      "rank": 19,
+      "name": "SD AUTOMATIC1111 纯净版",
+      "runtime": "88 h",
+      "type": "官方镜像",
+      "category": "图像生成",
+      "description": "基于AUTOMATIC1111 1.11.0 进行部署。预置常用插件、基础模型，方便定制"
+    },
+    {
+      "rank": 20,
+      "name": "Stable Diffusion整合包v4.9",
+      "runtime": "1129 h",
+      "type": "官方镜像",
+      "category": "图像生成",
+      "description": "秋葉aaaki纯净版"
+    },
+    {
+      "rank": 21,
+      "name": "alphafold3",
+      "runtime": "1360 h",
+      "type": "官方镜像",
+      "category": "科学计算",
+      "description": "AlphaFold 3 是 DeepMind 和 Isomorphic Labs 于 2024 年联合推出的最新蛋白质结构预测模型，是 AlphaFold 系列的第三代版本。相较于之前的 AlphaFold 2，AlphaFold 3 在准确性、适用范围和功能上都有重大提升。"
+    },
+    {
+      "rank": 22,
+      "name": "SoulX-Singer",
+      "runtime": "172 h",
+      "type": "官方镜像",
+      "category": "语音合成",
+      "description": "SoulX-Singer 歌声合成模型"
+    },
+    {
+      "rank": 23,
+      "name": "IndexTTS2",
+      "runtime": "39 h",
+      "type": "官方镜像",
+      "category": "语音合成",
+      "description": "情感表达与时长可控的自回归零样本语音合成突破"
+    },
+    {
+      "rank": 24,
+      "name": "VibeVoice-Realtime",
+      "runtime": "5 h",
+      "type": "官方镜像",
+      "category": "语音合成",
+      "description": "VibeVoice-Realtime 是一款轻量级实时文本转语音模型，支持流式文本输入和强大的长格式语音生成。"
+    },
+    {
+      "rank": 25,
+      "name": "fish-speech",
+      "runtime": "198 h",
+      "type": "官方镜像",
+      "category": "语音合成",
+      "description": "行业顶尖的多语言文本转语音 (TTS) 系统，重新定义声音生成的边界。"
+    },
+    {
+      "rank": 26,
+      "name": "OmniVoice",
+      "runtime": "8 h",
+      "type": "官方镜像",
+      "category": "语音合成",
+      "description": "OmniVoice 是一款先进的大规模多语言零样本文本转语音（TTS）模型，支持超过 600 种语言。"
+    },
+    {
+      "rank": 27,
+      "name": "LiveTalking",
+      "runtime": "34 h",
+      "type": "官方镜像",
+      "category": "数字人",
+      "description": "实时交互流式数字人，实现音视频同步对话。"
+    },
+    {
+      "rank": 28,
+      "name": "open-webui",
+      "runtime": "296 h",
+      "type": "官方镜像",
+      "category": "AI平台",
+      "description": "Open WebUI 是一个可扩展、功能丰富且用户友好的自托管 AI 平台，设计为完全离线运行。"
+    },
+    {
+      "rank": 29,
+      "name": "openakita",
+      "runtime": "1220 h",
+      "type": "官方镜像",
+      "category": "AI助手",
+      "description": "开源多 Agent AI 助手 — 不只是聊天，是帮你做事的 AI 团队"
+    },
+    {
+      "rank": 30,
+      "name": "unsloth",
+      "runtime": "140 h",
+      "type": "官方镜像",
+      "category": "模型训练",
+      "description": "Unsloth Studio 是一个本地、基于浏览器的 GUI，无需编写任何代码即可对 LLM 进行微调。它将训练流程封装在一个简洁的界面中，负责模型加载、数据集格式化、超参数配置以及实时训练监控。"
+    },
+    {
+      "rank": 31,
+      "name": "hermes",
+      "runtime": "39 h",
+      "type": "官方镜像",
+      "category": "AI Agent",
+      "description": "Hermes-Agent"
+    },
+    {
+      "rank": 32,
+      "name": "Hermes Web UI",
+      "runtime": "276 h",
+      "type": "官方镜像",
+      "category": "AI Agent",
+      "description": "Hermes WebUI 是一个轻量级、采用深色主题的 Web 应用程序界面，专为 Hermes Agent 设计，让你可以直接在浏览器中使用。"
+    },
+    {
+      "rank": 33,
+      "name": "DeerFlow",
+      "runtime": "49 h",
+      "type": "官方镜像",
+      "category": "AI Agent",
+      "description": "欢迎使用 🦌 DeerFlow，一个完全开源的超级智能体。通过内置和自定义的 Skills，DeerFlow 可以帮你搜索网络、分析数据，还能为你生成幻灯片、图片、视频、播客及网页等，几乎可以做任何事情。"
+    },
+    {
+      "rank": 34,
+      "name": "MoneyPrinterTurbo",
+      "runtime": "9 h",
+      "type": "官方镜像",
+      "category": "视频生成",
+      "description": "只需提供一个视频 主题 或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。"
+    },
+    {
+      "rank": 35,
+      "name": "Openclaw真开箱即用",
+      "runtime": "282 h",
+      "type": "社区镜像",
+      "category": "AI平台",
+      "description": "Openclaw真开箱即用"
+    },
+    {
+      "rank": 36,
+      "name": "明心医鉴-心脏+（龙虾版）",
+      "runtime": "3169 h",
+      "type": "社区镜像",
+      "category": "医疗健康",
+      "description": "您的个人心脏助手，预置了心脏+技能的Openclaw开箱即用版，联合心脏+APP为您的心脏健康保驾护航。"
+    },
+    {
+      "rank": 37,
+      "name": "互动文字游戏生成器",
+      "runtime": "33 h",
+      "type": "社区镜像",
+      "category": "游戏",
+      "description": "一个将剧本和小说变成互动游戏的快速剧本验证器"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "models": [
+    {
+      "name": "Doubao-Seedance-2.0-mini",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.02415/K tokens",
+      "tags": ["多模态"],
+      "description": "Seedance 2.0 mini 是面向更广泛视频生成需求推出的新一代高性价比视频生成模型。将视频生成能力带入更低门槛、更高频、更规模化的应用场景。",
+      "deprecated": false
+    },
+    {
+      "name": "kling-video-o1",
+      "provider": "Kling",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["文生图", "参考生视频"],
+      "description": "可灵O1是全球首个统一多模态视频生成模型。通过创新的多模态视觉语言（MVL）架构，实现视频生成、编辑与理解的无缝融合。",
+      "deprecated": false
+    },
+    {
+      "name": "kling-v3-omni",
+      "provider": "Kling",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["图生视频", "参考生视频", "文生图"],
+      "description": "Kling-V3-Omni 是全能多模态版本，将文/图生视频、视频编辑以及基于多参考图的角色和风格一致性控制，完美统一在了单一模型中。",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.6-t2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["文生视频"],
+      "description": "万相2.6-文生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.6-r2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["参考生视频"],
+      "description": "万相2.6-参考生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.6-i2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["图生视频"],
+      "description": "万相2.6-图生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.7-videoedit",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["视频编辑"],
+      "description": "万相2.7-视频编辑模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.7-t2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["文生视频"],
+      "description": "万相2.7-文生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.7-r2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["参考生视频"],
+      "description": "万相2.7-参考生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "wan2.7-i2v",
+      "provider": "万相",
+      "type": "生视频",
+      "output_price": "¥0.63/秒",
+      "tags": ["图生视频"],
+      "description": "万相2.7-图生视频模型",
+      "deprecated": false
+    },
+    {
+      "name": "happyhorse-1.0-video-edit",
+      "provider": "HappyHorse",
+      "type": "生视频",
+      "output_price": "¥0.945/秒",
+      "tags": ["视频编辑"],
+      "description": "支持视频编辑，自然语言指令编辑视频，可参考最多5张图片局部或全局编辑视频元素，能够精准复刻视频动态过程。",
+      "deprecated": false
+    },
+    {
+      "name": "happyhorse-1.0-r2v",
+      "provider": "HappyHorse",
+      "type": "生视频",
+      "output_price": "¥0.945/秒",
+      "tags": ["参考生视频"],
+      "description": "支持参考生视频，更加稳定的主体与场景参考，支持最多9张图片参考，能够精准保持创作意图。",
+      "deprecated": false
+    },
+    {
+      "name": "happyhorse-1.0-i2v",
+      "provider": "HappyHorse",
+      "type": "生视频",
+      "output_price": "¥0.945/秒",
+      "tags": ["图生视频"],
+      "description": "支持图生视频，具备高度还原的动态画面生成能力，能够精准理解文本语义，输出流畅自然、细节丰富的高质量视频。",
+      "deprecated": false
+    },
+    {
+      "name": "happyhorse-1.0-t2v",
+      "provider": "HappyHorse",
+      "type": "生视频",
+      "output_price": "¥0.945/秒",
+      "tags": ["文生视频"],
+      "description": "支持文生视频，具备高度还原的动态画面生成能力，能够精准理解文本语义，输出流畅自然、细节丰富的高质量视频。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedance-2.0-fast",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.03885/K tokens",
+      "tags": ["多模态"],
+      "description": "Seedance 2.0 fast是豆包大模型团队推出的新一代多模态视频创作模型，生成速度更快。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedance-2.0",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.0483/K tokens",
+      "tags": ["多模态"],
+      "description": "专业级多模态创作视频模型，支持图像、视频、音频等多模态作为参考输入生成视频，还具备视频编辑、延长等能力。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedance-1.5-pro",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.0084/K tokens",
+      "tags": ["多模态"],
+      "description": "全球领先的视频生成模型，可生成音画高精同步的视频内容。支持多人多语言对白，全面覆盖环境音、动作音、合成音、乐器音、背景音及人声。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedance-2.0",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.092/K tokens",
+      "tags": ["多模态"],
+      "description": "Doubao-Seedance-2.0",
+      "deprecated": true
+    },
+    {
+      "name": "Doubao-Seedance-2.0-1080p",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥1/秒",
+      "tags": ["多模态"],
+      "description": "Doubao-Seedance-2.0-1080p",
+      "deprecated": true
+    },
+    {
+      "name": "Doubao-Seedance-2.0-720p",
+      "provider": "字节跳动",
+      "type": "生视频",
+      "output_price": "¥0.65/秒",
+      "tags": ["多模态"],
+      "description": "Doubao-Seedance-2.0-720p",
+      "deprecated": true
+    },
+    {
+      "name": "wan 2.0",
+      "provider": "千问",
+      "type": "生视频",
+      "output_price": "¥0.0483/K tokens",
+      "tags": ["多模态"],
+      "description": "新一代专业级多模态创作视频模型，支持图像、视频、音频等多模态作为参考输入生成视频。",
+      "deprecated": true
+    },
+    {
+      "name": "wan 2.0 fast",
+      "provider": "千问",
+      "type": "生视频",
+      "output_price": "¥0.03885/K tokens",
+      "tags": ["多模态"],
+      "description": "新一代专业级多模态创作视频模型，支持图像、视频、音频等多模态作为参考输入生成视频。",
+      "deprecated": true
+    }
+  ]
+}

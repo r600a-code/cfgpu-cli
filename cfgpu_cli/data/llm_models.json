@@ -1,0 +1,323 @@
+{
+  "models": [
+    {
+      "name": "glm-5.2",
+      "provider": "Z-AI",
+      "type": "对话",
+      "output_price": "¥0.02/K Tokens",
+      "tags": ["AI编程", "1M输入"],
+      "description": "GLM-5.2 是面向长任务时代的旗舰模型。支持真正可用的 1M 上下文，可承载项目级工程上下文，长程任务执行更稳定、工程规范遵循更可靠，一次任务即可完成从需求到多端部署的完整开发链路。",
+      "deprecated": false
+    },
+    {
+      "name": "doubao-seed-2.0-pro",
+      "provider": "字节跳动",
+      "type": "对话",
+      "output_price": "¥0.0168/K Tokens",
+      "tags": ["深度思考", "工具调用", "结构化输出"],
+      "description": "Doubao Seed 2.0 Pro 旗舰级全能通用模型，面向 Agent 时代的复杂推理与长链路任务执行场景。强调多模态理解、长上下文推理、结构化生成与工具增强执行。",
+      "deprecated": false
+    },
+    {
+      "name": "z-ai/glm-5.1",
+      "provider": "Z-AI",
+      "type": "对话",
+      "output_price": "¥0.024/K Tokens",
+      "tags": ["深度思考", "工具调用", "AI编程"],
+      "description": "GLM-5.1 在编程能力上实现了重大飞跃，能够独立持续处理单个任务超过 8 小时，全程自主规划、执行并自我优化，最终交付完整、工程级的结果。",
+      "deprecated": false
+    },
+    {
+      "name": "moonshotai/kimi-k2.6",
+      "provider": "月之暗面",
+      "type": "对话",
+      "output_price": "¥0.027/K Tokens",
+      "tags": ["工具调用", "深度思考", "视觉理解", "AI编程"],
+      "description": "Kimi K2.6 是 Kimi 最新最智能的模型，在博士级难度的完整版人类最后的考试、SWE-Bench Pro、DeepSearchQA 等基准测试中均取得行业领先的成绩，同时支持文本、图片与视频输入。",
+      "deprecated": false
+    },
+    {
+      "name": "deepseek/deepseek-v4-flash",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.0021/K Tokens",
+      "tags": ["1M输入", "工具调用"],
+      "description": "DeepSeek V4 Flash 是总参数量达 2840 亿的 MoE 模型，每次前向传播激活 130 亿参数，支持长达 100 万 token 的上下文窗口。专为快速推理和高吞吐量工作负载设计。",
+      "deprecated": false
+    },
+    {
+      "name": "deepseek/deepseek-v4-pro",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.024/K Tokens",
+      "tags": ["工具调用", "深度思考", "1M输入"],
+      "description": "DeepSeek V4 Pro 总参数量达 1.6 万亿，每次前向传播激活 490 亿参数，支持长达 100 万 token 的上下文窗口。专为高级推理、编程和长程智能体工作流设计。",
+      "deprecated": false
+    },
+    {
+      "name": "Qwen3.6-Plus",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.0126/K Tokens",
+      "tags": ["深度思考", "图像理解"],
+      "description": "Qwen3.6原生视觉语言系列Plus模型，在Agentic coding、前端编程、Vibe coding等代码能力、多模态万物识别、OCR、物体定位等能力上显著增强。",
+      "deprecated": false
+    },
+    {
+      "name": "MiniMax-M2.7",
+      "provider": "MiniMax",
+      "type": "对话",
+      "output_price": "¥0.0084/K Tokens",
+      "tags": ["工具调用", "深度思考", "AI编程"],
+      "description": "MiniMax-M2.7 面向自主化、真实生产力与持续进化的下一代大语言模型，通过多智能体协同整合先进的智能体能力，能够在动态环境中完成复杂任务的规划、执行与优化。",
+      "deprecated": false
+    },
+    {
+      "name": "z-ai/glm-5",
+      "provider": "Z-AI",
+      "type": "对话",
+      "output_price": "¥0.018/K Tokens",
+      "output_think_price": "¥0.01206/K Tokens",
+      "tags": ["工具调用", "深度思考", "AI编程"],
+      "description": "GLM-5 是智谱新一代的旗舰基座模型，面向 Agentic Engineering 打造，在 Coding 与 Agent 能力上取得开源 SOTA 表现，擅长复杂系统工程与长程 Agent 任务。",
+      "deprecated": false
+    },
+    {
+      "name": "Moonshotai/Kimi-K2.5",
+      "provider": "月之暗面",
+      "type": "对话",
+      "output_price": "¥0.01407/K Tokens",
+      "tags": ["图像理解", "工具调用"],
+      "description": "Kimi K2.5 是 Kimi 迄今最智能的模型，在 Agent、代码、视觉理解及一系列通用智能任务上取得开源 SoTA 表现，原生的多模态架构设计，同时支持视觉与文本输入。",
+      "deprecated": false
+    },
+    {
+      "name": "Minimax-M2.5",
+      "provider": "MiniMax",
+      "type": "对话",
+      "output_price": "¥0.005628/K Tokens",
+      "tags": ["工具调用", "深度思考", "AI编程"],
+      "description": "Minimax M2.5专为Agent场景原生设计，编程与智能体性能直接对标Claude Opus 4.6，尤其在Excel高阶处理、PPT生成和深度调研等Office生产力场景达到行业领先水平。",
+      "deprecated": false
+    },
+    {
+      "name": "MiniMax-M1",
+      "provider": "MiniMax",
+      "type": "对话",
+      "output_price": "¥0.01088/K Tokens",
+      "tags": ["80K思维链", "1M输入"],
+      "description": "MiniMax-M1，世界上第一个开源的大规模混合架构的推理模型。支持目前业内最高的100万上下文的输入，以及业内最长的8万Token的推理输出。",
+      "deprecated": false
+    },
+    {
+      "name": "Xiaomi/Mimo-V2-Flash",
+      "provider": "Xiaomi",
+      "type": "对话",
+      "output_price": "¥0.001407/K Tokens",
+      "tags": ["深度思考"],
+      "description": "MiMo-V2-Flash 是一个专为极致推理效率自研的总参数 309B（激活 15B）的 MoE 模型，通过 Hybrid 注意力架构创新及多层 MTP 推理加速。",
+      "deprecated": false
+    },
+    {
+      "name": "Deepseek/DeepSeek-V3.2",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.00204/K Tokens",
+      "tags": [],
+      "description": "DeepSeek 发布 V3.2 正式版，显著强化了 Agent 和推理能力，在主流测试中达到 GPT-5 水平并支持思考模式下的工具调用。",
+      "deprecated": false
+    },
+    {
+      "name": "Deepseek/Deepseek-V3.1 Terminus Thinking",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.00816/K Tokens",
+      "tags": ["深度思考"],
+      "description": "此次更新在保持模型原有能力的基础上，进一步优化了 Code Agent 与 Search Agent 的表现，缓解了中英文混杂、偶发异常字符等情况。",
+      "deprecated": false
+    },
+    {
+      "name": "DeepSeek V3.1",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.00816/K Tokens",
+      "tags": [],
+      "description": "DeepSeek V3.1 通过显式推理（Think）、动态搜索（Search）、高效工具调用（Tool）三驾马车，勾勒出一个更自主、更可靠、更能与外部世界交互的智能体。",
+      "deprecated": false
+    },
+    {
+      "name": "DeepSeek-V3",
+      "provider": "深度求索",
+      "type": "对话",
+      "output_price": "¥0.00544/K Tokens",
+      "tags": ["推理"],
+      "description": "推理速度大幅提升，位居开源模型之首，媲美顶尖闭源模型。采用负载均衡辅助策略和多标记预测训练，性能显著增强。",
+      "deprecated": false
+    },
+    {
+      "name": "Qwen3 30b A3b Thinking 2507",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.005025/K Tokens",
+      "tags": ["工具调用", "深度思考", "30B"],
+      "description": "基于Qwen3的思考模式开源模型，复杂推理类任务性能优秀，包括逻辑推理、数学、科学、代码类等具有一定难度的任务场景。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问3 Next 80b A3b Thinking",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.0068/K Tokens",
+      "tags": ["工具调用", "深度思考"],
+      "description": "通义千问3 Next 80B A3B Thinking是Qwen3 Next系列中优先进行推理的对话模型，专为复杂多步骤问题设计，涵盖数学证明、代码合成/调试、逻辑推理和智能体规划等领域。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问3 Max Preview",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.024/K Tokens",
+      "tags": ["工具调用"],
+      "description": "通义千问 3 系列 Max 模型 Preview 版本，相较 2.5 系列整体通用能力有大幅度提升。参数量达 1T，大幅减少知识幻觉，模型更智能。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问3-32B",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.0064/K Tokens",
+      "output_think_price": "¥0.016/K Tokens",
+      "tags": ["深度思考", "32B"],
+      "description": "Qwen3 系列，性能介于 Qwen3-235B-A22B 与 Qwen3-30B-A3B 之间，全系列针对 MCP 调用进行了针对性的优化和增强。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问3-235B-A22B",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.0064/K Tokens",
+      "output_think_price": "¥0.016/K Tokens",
+      "tags": ["深度思考", "235B"],
+      "description": "Qwen3 系列的旗舰模型，在编码、数学、通用能力等基准测试中，与 DeepSeek-R1、o1、o3-mini、Grok-3 和 Gemini-2.5-Pro 等其他顶级模型相比，取得了极具竞争力的成绩。",
+      "deprecated": false
+    },
+    {
+      "name": "QwQ-32B",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.00408/K Tokens",
+      "tags": ["推理", "工具调用", "32B"],
+      "description": "通义千问 QwQ Plus 开源版本，基于 Qwen2.5 模型训练的 QwQ 推理模型，通过强化学习大幅度提升了模型推理能力。",
+      "deprecated": false
+    },
+    {
+      "name": "QwQ-Plus",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.00408/K Tokens",
+      "tags": ["推理", "工具调用"],
+      "description": "通义千问 QwQ 推理模型增强版，基于 Qwen2.5 模型训练的 QwQ 推理模型，通过强化学习大幅度提升了模型推理能力。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问2.5-72B-Instruct",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.00816/K Tokens",
+      "tags": ["工具调用", "72B"],
+      "description": "在 Qwen2 基础上实现了全面升级，支持128K超长上下文处理，语言能力覆盖中、英、法、西、德、日、韩、阿拉伯等29种语言。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问2.5-Max-2025-01-25",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.006528/K Tokens",
+      "tags": ["工具调用"],
+      "description": "一个大规模 MoE 模型，已在超过 20 万亿个 token 上进行了预训练，并使用精选的监督微调和从人类反馈中强化学习方法进行了进一步的后训练。",
+      "deprecated": false
+    },
+    {
+      "name": "通义千问2.5-VL-7B-Instruct",
+      "provider": "千问",
+      "type": "对话",
+      "output_price": "¥0.0034/K Tokens",
+      "tags": ["图片推理"],
+      "description": "拥有约70亿参数的多模态指令遵循大语言模型，擅长处理图像与文本信息，支持跨模态应用场景。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seed 1.6",
+      "provider": "字节跳动",
+      "type": "对话",
+      "output_price": "¥0.00136/K Tokens",
+      "tags": ["工具调用", "深度思考", "图像理解"],
+      "description": "Doubao-Seed-1.6全新多模态深度思考模型，同时支持auto/thinking/non-thinking三种思考模式。支持 256k 上下文窗口，输出长度支持最大 16k tokens。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seed 1.6 Flash",
+      "provider": "字节跳动",
+      "type": "对话",
+      "output_price": "¥0.00102/K Tokens",
+      "tags": ["工具调用", "深度思考", "图像理解"],
+      "description": "Doubao-Seed-1.6-flash 推理速度极致的多模态深度思考模型，TPOT低至10ms。支持 256k 上下文窗口，输出长度支持最大 16k tokens。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao 1.5 Pro 32k",
+      "provider": "字节跳动",
+      "type": "对话",
+      "output_price": "¥0.00136/K Tokens",
+      "tags": ["视觉理解"],
+      "description": "全新升级的多模态大模型，视觉理解、分类、信息抽取等能力显著提升，并重点增强了解题、视频理解等场景的任务效果。支持 128k 上下文窗口。",
+      "deprecated": false
+    },
+    {
+      "name": "Kimi K2 0905",
+      "provider": "月之暗面",
+      "type": "对话",
+      "output_price": "¥0.01088/K Tokens",
+      "tags": ["工具调用"],
+      "description": "Kimi K2 0905 是 Kimi K2 0711 的九月更新版本。总参数量达1万亿，前向传播激活参数量为320亿。上下文支持长度扩展至256K令牌。",
+      "deprecated": false
+    },
+    {
+      "name": "Kimi-K2",
+      "provider": "月之暗面",
+      "type": "对话",
+      "output_price": "¥0.01088/K Tokens",
+      "tags": [],
+      "description": "Kimi K2 是一款先进的混合专家 (MoE) 语言模型，拥有 320 亿个激活参数和 1 万亿个总参数。采用 Muon 优化器进行训练，在前沿知识、推理和编码任务中表现出色。",
+      "deprecated": false
+    },
+    {
+      "name": "GLM-4.5",
+      "provider": "Z-AI",
+      "type": "对话",
+      "output_price": "¥0.01088/K Tokens",
+      "tags": [],
+      "description": "GLM-4.5 是 GLM 系列的旗舰新模型，拥有 3550 亿个总参数和 320 亿个活动参数。整合了推理、编码和代理功能，提供用于复杂推理和工具运用的思维模式。",
+      "deprecated": false
+    },
+    {
+      "name": "GLM-4.5-Air",
+      "provider": "Z-AI",
+      "type": "对话",
+      "output_price": "¥0.00544/K Tokens",
+      "tags": [],
+      "description": "GLM-4.5-Air 具备 1060 亿个总参数和 120 亿个活动参数。将推理、编码和代理功能统一，提供思维模式与非思维模式，以适配代理应用的复杂需求。",
+      "deprecated": false
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "provider": "GOOGLE",
+      "type": "对话",
+      "output_price": "¥0.0486/K Tokens",
+      "output_think_price": "¥0.05832/K Tokens",
+      "tags": ["推理", "深度思考"],
+      "description": "Gemini 3.5 Flash 是 Google 在 2026 年 5 月推出的新一代高性能、低成本、高速度的轻量级多模态 AI 模型。专为\"智能体时代\"与高效行动而设计。",
+      "deprecated": true
+    }
+  ]
+}

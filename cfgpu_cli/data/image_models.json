@@ -1,0 +1,85 @@
+{
+  "models": [
+    {
+      "name": "doubao-seedream-5-0-pro",
+      "provider": "字节跳动",
+      "type": "生图",
+      "output_price": "¥0.33/张",
+      "tags": ["文生图", "图生图"],
+      "description": "Seedream-5.0-pro是字节跳动发布的最新图像创作模型。编辑更可控、生产更落地、效果更自然。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedream-5.0-lite",
+      "provider": "字节跳动",
+      "type": "生图",
+      "output_price": "¥0.22/张",
+      "tags": ["视觉理解"],
+      "description": "首次搭载联网检索功能，能融合实时网络信息，提升生图时效性。模型的聪明度进一步升级，能够精准解析复杂指令和视觉内容。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedream-4.5",
+      "provider": "字节跳动",
+      "type": "生图",
+      "output_price": "¥0.25/张",
+      "tags": ["图像理解"],
+      "description": "整合了文生图、图生图、组图输出等能力，融合常识和推理能力。相比前代4.0模型生成效果大幅提升。",
+      "deprecated": false
+    },
+    {
+      "name": "Doubao-Seedream-4.0",
+      "provider": "字节跳动",
+      "type": "生图",
+      "output_price": "¥0.2/张",
+      "tags": ["图像理解"],
+      "description": "SOTA级多模态图像创作模型，生成美感、指令遵循、结构完整度处于世界头部水平。支持4K超高清输出。",
+      "deprecated": false
+    },
+    {
+      "name": "GPT Image 2",
+      "provider": "OpenAI",
+      "type": "生图",
+      "output_price": "N/A",
+      "tags": ["图像理解"],
+      "description": "GPT Image 2 生图模型",
+      "deprecated": true
+    },
+    {
+      "name": "Nano Banana Pro绘画模型-official",
+      "provider": "GOOGLE",
+      "type": "生图",
+      "output_price": "¥0.6/张",
+      "tags": ["图像理解"],
+      "description": "gemini-3-pro-image-preview",
+      "deprecated": true
+    },
+    {
+      "name": "Nano Banana Pro绘画模型-premium",
+      "provider": "GOOGLE",
+      "type": "生图",
+      "output_price": "¥0.525/张",
+      "tags": ["图像理解"],
+      "description": "gemini-3-pro-image-preview",
+      "deprecated": true
+    },
+    {
+      "name": "Nano Banana2 绘画标准模型",
+      "provider": "GOOGLE",
+      "type": "生图",
+      "output_price": "¥0.3/张",
+      "tags": ["图像理解"],
+      "description": "gemini-3.1-flash-image-preview（Banana2）",
+      "deprecated": true
+    },
+    {
+      "name": "Nano Banana Pro绘画模型",
+      "provider": "GOOGLE",
+      "type": "生图",
+      "output_price": "¥0.21/张",
+      "tags": ["图像理解"],
+      "description": "gemini-3-pro-image-preview",
+      "deprecated": true
+    }
+  ]
+}

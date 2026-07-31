@@ -1,0 +1,724 @@
+{
+  "container": [
+    {
+      "id": "20",
+      "type": "container",
+      "title": "NVIDIA A100-PCIE",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "40 GB",
+          "enKey": "VRAM",
+          "enValue": "40 GB"
+        },
+        {
+          "key": "内存",
+          "value": "85 GB/卡",
+          "enKey": "Memory",
+          "enValue": "85 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "11 核 Intel Xeon Gold 6248R",
+          "enKey": "CPU",
+          "enValue": "11 cores Intel Xeon Gold 6248R"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "1.79 ",
+      "priceUnit": "/卡/小时",
+      "sort": 2
+    },
+    {
+      "id": "1",
+      "type": "container",
+      "title": "NVIDIA RTX 4090",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": " 24 GB",
+          "enKey": "VRAM",
+          "enValue": " 24 GB"
+        },
+        {
+          "key": "内存",
+          "value": "60 GB/卡",
+          "enKey": "Memory",
+          "enValue": "60 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "17核 Intel Platinum 8352V/卡",
+          "enKey": "CPU",
+          "enValue": "17 Cores Intel Platinum 8352V/Card"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "1.89 ",
+      "priceUnit": "/卡/小时",
+      "sort": 3
+    },
+    {
+      "id": "21",
+      "type": "container",
+      "title": "NVIDIA L40S",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "48 GB",
+          "enKey": "VRAM",
+          "enValue": "48 GB"
+        },
+        {
+          "key": "内存",
+          "value": "117 GB/卡",
+          "enKey": "Memory",
+          "enValue": "117 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "13 核 Intel Xeon Gold 6348",
+          "enKey": "CPU",
+          "enValue": "13 cores Intel Xeon Gold 6348"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "2.99",
+      "priceUnit": "/卡/小时",
+      "sort": 4
+    },
+    {
+      "id": "22",
+      "type": "container",
+      "title": "NVIDIA RTX 3080",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "10 GB",
+          "enKey": "VRAM",
+          "enValue": "10 GB"
+        },
+        {
+          "key": "内存",
+          "value": "48 GB/卡",
+          "enKey": "Memory",
+          "enValue": "48 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "60 核 ARM CPU",
+          "enKey": "CPU",
+          "enValue": "60 cores ARM CPU"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "0.59",
+      "priceUnit": "/卡/小时",
+      "sort": 5
+    },
+    {
+      "id": "11",
+      "type": "container",
+      "title": "NVIDIAHGX H800",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80 GB",
+          "enKey": "VRAM",
+          "enValue": "80 GB"
+        },
+        {
+          "key": "内存",
+          "value": "243 GB/卡",
+          "enKey": "Memory",
+          "enValue": "243 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "22核 Intel Xeon Platinum 8468/卡",
+          "enKey": "CPU",
+          "enValue": "22 Cores Intel Xeon Platinum 8468/Card"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "12.99",
+      "priceUnit": "/卡/小时",
+      "sort": 8
+    }
+  ],
+  "vm": [
+    {
+      "id": "2",
+      "type": "vm",
+      "title": "NVIDIA RTX 4090",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": " 24 GB",
+          "enKey": "VRAM",
+          "enValue": " 24 GB"
+        },
+        {
+          "key": "内存",
+          "value": " 60 GB/卡",
+          "enKey": "Memory",
+          "enValue": " 60 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "17核 Intel Platinum 8352V/卡",
+          "enKey": "CPU",
+          "enValue": "17 Cores Intel Platinum 8352V/Card"
+        },
+        {
+          "key": "系统盘",
+          "value": " 30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": " 30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "1.89",
+      "priceUnit": "/卡/小时",
+      "sort": 2
+    },
+    {
+      "id": "19",
+      "type": "vm",
+      "title": "NVIDIA A100-PCIE-40GB",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "40 GB",
+          "enKey": "VRAM",
+          "enValue": "40 GB"
+        },
+        {
+          "key": "内存",
+          "value": "85 GB/卡",
+          "enKey": "Memory",
+          "enValue": "85 GB/Card"
+        },
+        {
+          "key": "CPU",
+          "value": "11 核 Intel Xeon Gold 6248R/卡",
+          "enKey": "CPU",
+          "enValue": "11 cores Intel Xeon Gold 6248R/Card"
+        },
+        {
+          "key": "系统盘",
+          "value": "30 GB + 动态扩容",
+          "enKey": "System Disk",
+          "enValue": "30 GB + Elastic Scaling"
+        },
+        {
+          "key": "数据盘",
+          "value": "50 GB + 动态扩容",
+          "enKey": "Data Disk",
+          "enValue": "50 GB + Elastic Scaling"
+        }
+      ],
+      "price": "1.99",
+      "priceUnit": "/卡/小时",
+      "sort": 3
+    }
+  ],
+  "bare_metal": [
+    {
+      "id": "12",
+      "type": "bare_metal",
+      "title": "RTX 4090",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "24G",
+          "enKey": "VRAM",
+          "enValue": "24G"
+        },
+        {
+          "key": "内存",
+          "value": "512GB",
+          "enKey": "Memory",
+          "enValue": "512GB"
+        },
+        {
+          "key": "CPU",
+          "value": "MD EPYC 7513*2",
+          "enKey": "CPU",
+          "enValue": "MD EPYC 7513*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "960GB SATA SSD企业级",
+          "enKey": "System Disk",
+          "enValue": "960GB SATA SSD Enterprise-grade"
+        },
+        {
+          "key": "数据盘",
+          "value": "7.68TB NVMe U.2 SSD企业级",
+          "enKey": "Data Disk",
+          "enValue": "7.68TB NVMe U.2 SSD Enterprise-grade"
+        }
+      ],
+      "price": "6xxx",
+      "priceUnit": "/台/月",
+      "sort": 2
+    },
+    {
+      "id": "16",
+      "type": "bare_metal",
+      "title": "A100-40G-pcie",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "40G",
+          "enKey": "VRAM",
+          "enValue": "40G"
+        },
+        {
+          "key": "内存",
+          "value": "640GB",
+          "enKey": "Memory",
+          "enValue": "640GB"
+        },
+        {
+          "key": "CPU",
+          "value": "Intel Xeon Gold 6248R@3.0Ghz 80核",
+          "enKey": "CPU",
+          "enValue": "Intel Xeon Gold 6248R@3.0Ghz 80 Cores"
+        },
+        {
+          "key": "系统盘",
+          "value": "50GB 高性能SSD",
+          "enKey": "System Disk",
+          "enValue": "50GB High-Performance SSD"
+        },
+        {
+          "key": "数据盘",
+          "value": "8000G 高性能 SSD",
+          "enKey": "Data Disk",
+          "enValue": "8000G High-Performance SSD"
+        }
+      ],
+      "price": "1xxxx",
+      "priceUnit": "/台/月",
+      "sort": 3
+    },
+    {
+      "id": "3",
+      "type": "bare_metal",
+      "title": "H800-80G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80G",
+          "enKey": "VRAM",
+          "enValue": "80G"
+        },
+        {
+          "key": "内存",
+          "value": "64G DDR5*32",
+          "enKey": "Memory",
+          "enValue": "64G DDR5*32"
+        },
+        {
+          "key": "CPU",
+          "value": "Intel Xeon Platinum 8468*2",
+          "enKey": "CPU",
+          "enValue": "Intel Xeon Platinum 8468*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "NVME-960GB-Gen4-U.2-TLC-Common*2",
+          "enKey": "System Disk",
+          "enValue": "NVME-960GB-Gen4-U.2-TLC-Common*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "NVME-3.84TB-Gen4-U.2-TLC-Common *4",
+          "enKey": "Data Disk",
+          "enValue": "NVME-3.84TB-Gen4-U.2-TLC-Common *4"
+        },
+        {
+          "key": "网卡1-管理",
+          "value": "25Gb双口*1",
+          "enKey": "NIC1-Management",
+          "enValue": "25Gb Dual-Port * 1"
+        },
+        {
+          "key": "网卡2-计算",
+          "value": "NIC-400G-AIC-HHHLOSFP-1P-CX7 MCX75310AAS-NEAT*8",
+          "enKey": "NIC2-Compute",
+          "enValue": "NIC-400G-AIC-HHHLOSFP-1P-CX7 MCX75310AAS-NEAT*8"
+        },
+        {
+          "key": "网卡3-存储",
+          "value": "MCX755106AS-HEAT:双口200G NDR200 以太-HCA卡*1",
+          "enKey": "NIC3-Storage",
+          "enValue": "MCX755106AS-HEAT : NDR200 200G Dual-Port Ethernet HCA * 1"
+        }
+      ],
+      "price": "5xxxx",
+      "priceUnit": "/台/月",
+      "sort": 4
+    },
+    {
+      "id": "4",
+      "type": "bare_metal",
+      "title": "H100-80G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80G",
+          "enKey": "VRAM",
+          "enValue": "80G"
+        },
+        {
+          "key": "内存",
+          "value": "64G DDR5*32",
+          "enKey": "Memory",
+          "enValue": "64G DDR5*32"
+        },
+        {
+          "key": "CPU",
+          "value": "Intel Xeon Platinum 8468*2",
+          "enKey": "CPU",
+          "enValue": "Intel Xeon Platinum 8468*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "480g*2",
+          "enKey": "System Disk",
+          "enValue": "480g*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "NVME-3.84TB *4",
+          "enKey": "Data Disk",
+          "enValue": "NVME-3.84TB *4"
+        },
+        {
+          "key": "网卡1-管理",
+          "value": "25Gb双口*1",
+          "enKey": "NIC1-Management",
+          "enValue": "25Gb Dual-Port * 1"
+        },
+        {
+          "key": "网卡2-计算",
+          "value": "NIC-400G-CX7 *8",
+          "enKey": "NIC2-Compute",
+          "enValue": "NIC-400G-CX7 *8"
+        },
+        {
+          "key": "网卡3-存储",
+          "value": "NDR200 *1",
+          "enKey": "NIC3-Storage",
+          "enValue": "NDR200 *1"
+        }
+      ],
+      "price": "5xxxx",
+      "priceUnit": "/台/月",
+      "sort": 5
+    },
+    {
+      "id": "5",
+      "type": "bare_metal",
+      "title": "h200-141G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "141G",
+          "enKey": "VRAM",
+          "enValue": "141G"
+        },
+        {
+          "key": "内存",
+          "value": "64GB RDIMM.4800MT/s Dual Ran*32",
+          "enKey": "Memory",
+          "enValue": "64GB RDIMM.4800MT/s Dual Ran*32"
+        },
+        {
+          "key": "CPU",
+          "value": "intel 8468*2",
+          "enKey": "CPU",
+          "enValue": "intel 8468*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "480G*2",
+          "enKey": "System Disk",
+          "enValue": "480G*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "3.84TB Enterprise NVM*2",
+          "enKey": "Data Disk",
+          "enValue": "3.84TB Enterprise NVM*2"
+        }
+      ],
+      "price": "6xxxx",
+      "priceUnit": "/台/月",
+      "sort": 6
+    },
+    {
+      "id": "6",
+      "type": "bare_metal",
+      "title": "A800-80G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80G",
+          "enKey": "VRAM",
+          "enValue": "80G"
+        },
+        {
+          "key": "内存",
+          "value": "2048G",
+          "enKey": "Memory",
+          "enValue": "2048G"
+        },
+        {
+          "key": "CPU",
+          "value": "intel xeon platinum ice lake 8336c",
+          "enKey": "CPU",
+          "enValue": "intel xeon platinum ice lake 8336c"
+        },
+        {
+          "key": "系统盘",
+          "value": "480g*2",
+          "enKey": "System Disk",
+          "enValue": "480g*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "3.84T NVMe*4",
+          "enKey": "Data Disk",
+          "enValue": "3.84T NVMe*4"
+        }
+      ],
+      "price": "2xxxx",
+      "priceUnit": "/台/月",
+      "sort": 7
+    },
+    {
+      "id": "7",
+      "type": "bare_metal",
+      "title": "H20-96G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "96G",
+          "enKey": "VRAM",
+          "enValue": "96G"
+        },
+        {
+          "key": "内存",
+          "value": "1960GB",
+          "enKey": "Memory",
+          "enValue": "1960GB"
+        },
+        {
+          "key": "CPU",
+          "value": "intel 8457c*2",
+          "enKey": "CPU",
+          "enValue": "intel 8457c*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "480G*2",
+          "enKey": "System Disk",
+          "enValue": "480G*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "3576GiB * 4",
+          "enKey": "Data Disk",
+          "enValue": "3576GiB * 4"
+        }
+      ],
+      "price": "2xxxx",
+      "priceUnit": "/台/月",
+      "sort": 8
+    },
+    {
+      "id": "8",
+      "type": "bare_metal",
+      "title": "h100-80G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80G",
+          "enKey": "VRAM",
+          "enValue": "80G"
+        },
+        {
+          "key": "内存",
+          "value": "64GB DDR5 4400MHz * 32",
+          "enKey": "Memory",
+          "enValue": "64GB DDR5 4400MHz * 32"
+        },
+        {
+          "key": "CPU",
+          "value": "Intel(R) Xeon(R) Platinum 8468 * 2",
+          "enKey": "CPU",
+          "enValue": "Intel(R) Xeon(R) Platinum 8468 * 2"
+        },
+        {
+          "key": "系统盘",
+          "value": "1.92T SSD * 2",
+          "enKey": "System Disk",
+          "enValue": "1.92T SSD * 2"
+        },
+        {
+          "key": "数据盘",
+          "value": "3.84T * 4",
+          "enKey": "Data Disk",
+          "enValue": "3.84T * 4"
+        }
+      ],
+      "price": "6xxxx",
+      "priceUnit": "/台/月",
+      "sort": 9
+    },
+    {
+      "id": "9",
+      "type": "bare_metal",
+      "title": "L40",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "48G",
+          "enKey": "VRAM",
+          "enValue": "48G"
+        },
+        {
+          "key": "内存",
+          "value": "32GB DDR4 3200MHz*32",
+          "enKey": "Memory",
+          "enValue": "32GB DDR4 3200MHz*32"
+        },
+        {
+          "key": "CPU",
+          "value": "Intel Xeon 6348*2",
+          "enKey": "CPU",
+          "enValue": "Intel Xeon 6348*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "480GB SATA SSD*2",
+          "enKey": "System Disk",
+          "enValue": "480GB SATA SSD*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "1.92T U.2*4",
+          "enKey": "Data Disk",
+          "enValue": "1.92T U.2*4"
+        }
+      ],
+      "price": "9xxx",
+      "priceUnit": "/台/月",
+      "sort": 10
+    },
+    {
+      "id": "10",
+      "type": "bare_metal",
+      "title": "A100-80G-nvlink",
+      "attribute": [
+        {
+          "key": "显存",
+          "value": "80G",
+          "enKey": "VRAM",
+          "enValue": "80G"
+        },
+        {
+          "key": "内存",
+          "value": "1960 GiB",
+          "enKey": "Memory",
+          "enValue": "1960 GiB"
+        },
+        {
+          "key": "CPU",
+          "value": "intel xeon platinum ice lake 8336c*2",
+          "enKey": "CPU",
+          "enValue": "intel xeon platinum ice lake 8336c*2"
+        },
+        {
+          "key": "系统盘",
+          "value": "480G*2",
+          "enKey": "System Disk",
+          "enValue": "480G*2"
+        },
+        {
+          "key": "数据盘",
+          "value": "3576GB NVMe SSD*4",
+          "enKey": "Data Disk",
+          "enValue": "3576GB NVMe SSD*4"
+        }
+      ],
+      "price": "2xxxx",
+      "priceUnit": "/台/月",
+      "sort": 11
+    }
+  ]
+}
