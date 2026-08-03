@@ -66,11 +66,13 @@ def run():
     voice-models [provider]  语音合成模型 (如: MiniMax, 字节跳动)
 
   模型体验 (需要登录):
-    generate-image <描述>    调用API生图
+    generate-image <描述>    调用 API 生图
       --model <模型>         模型简称 (默认: seedream-5.0-lite)
       --resolution <分辨率>  分辨率: 2K, 3K, 4K (默认: 2K)
       --ratio <宽高比>       宽高比: 1:1, 16:9, 9:16 等 (默认: 1:1)
       --output <路径>        输出文件路径 (默认: 自动生成)
+    open-model <模型>        在浏览器打开模型体验页面
+      --list                 列出所有可用模型简称
 
   镜像市场:
     images [category]        镜像市场AI模型 (如: 大语言模型, 图像生成, 语音合成)

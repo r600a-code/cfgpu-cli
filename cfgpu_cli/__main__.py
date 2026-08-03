@@ -21,7 +21,8 @@ Commands:
     voice-models [provider]  列出语音合成模型 (可选提供商: MiniMax, 字节跳动等)
 
   模型体验 (需要登录):
-    generate-image <描述>  调用API生图 (--model/--resolution/--ratio/--output)
+    generate-image <描述>  调用 API 生图 (--model/--resolution/--ratio/--output)
+    open-model <模型>      在浏览器打开模型体验页面 (--list 列出可用模型)
 
   个人空间 (需要登录):
     dashboard           个人空间概览 (余额、实例、镜像、存储)
@@ -145,6 +146,12 @@ def main():
             else:
                 i += 1
         run(prompt, model, resolution, ratio, output)
+
+    elif command == "open-model":
+        from cfgpu_cli.commands.open_model import run
+        model = args[1] if len(args) > 1 and not args[1].startswith("--") else None
+        list_models = "--list" in args
+        run(model, list_models)
 
     elif command == "api-token":
         from cfgpu_cli.commands.api_token import run
