@@ -20,6 +20,9 @@ Commands:
     image-models [provider]  列出图像生成模型 (可选提供商: 字节跳动, OpenAI等)
     voice-models [provider]  列出语音合成模型 (可选提供商: MiniMax, 字节跳动等)
 
+  模型体验 (需要登录):
+    generate-image <描述>  调用API生图 (--model/--resolution/--ratio/--output)
+
   个人空间 (需要登录):
     dashboard           个人空间概览 (余额、实例、镜像、存储)
     instance [status]   个人实例列表 (可选状态: RUNNING, CLOSED)
@@ -110,6 +113,38 @@ def main():
         provider = args[1] if len(args) > 1 else None
         page = int(args[2]) if len(args) > 2 else 1
         run(provider, page)
+
+    elif command == "generate-image":
+        from cfgpu_cli.commands.generate_image import run
+        # Parse options from remaining args
+        prompt = None
+        model = None
+        resolution = "2K"
+        ratio = "1:1"
+        output = None
+        i = 1
+        while i < len(args):
+            if args[i] == "--model" and i + 1 < len(args):
+                model = args[i + 1]
+                i += 2
+            elif args[i] == "--resolution" and i + 1 < len(args):
+                resolution = args[i + 1]
+                i += 2
+            elif args[i] == "--ratio" and i + 1 < len(args):
+                ratio = args[i + 1]
+                i += 2
+            elif args[i] == "--output" and i + 1 < len(args):
+                output = args[i + 1]
+                i += 2
+            elif not args[i].startswith("--"):
+                if prompt is None:
+                    prompt = args[i]
+                else:
+                    prompt += " " + args[i]
+                i += 1
+            else:
+                i += 1
+        run(prompt, model, resolution, ratio, output)
 
     elif command == "api-token":
         from cfgpu_cli.commands.api_token import run
