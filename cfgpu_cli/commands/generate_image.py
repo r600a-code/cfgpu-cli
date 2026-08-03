@@ -182,9 +182,10 @@ def run(prompt: Optional[str] = None, model: Optional[str] = None,
 
     # 检查登录
     cookie = _load_cookies()
-    if not cookie:
-        print("\n  错误: 未登录。请先在浏览器登录 cfgpu.com，")
-        print("  然后运行: cfgpu save-cookie <cookie字符串>")
+    if not cookie or "satoken=" not in cookie:
+        print("\n  错误: 未登录或登录已过期。")
+        print("  请运行以下命令获取登录引导:")
+        print("    cfgpu login guide")
         print()
         return
 

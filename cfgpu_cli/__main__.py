@@ -13,6 +13,9 @@ Commands:
     export [file]       导出所有资源数据为JSON
     all                 列出所有资源
 
+  登录管理:
+    login [action]      登录引导 (guide|status|open|save)
+
   模型平台:
     images [category]   列出镜像市场AI模型 (可选分类: 大语言模型, 图像生成, 语音合成等)
     llm [provider]      列出模型聚合平台的大语言模型 (可选提供商: DeepSeek, 阿里云等)
@@ -27,6 +30,7 @@ Commands:
   个人空间 (需要登录):
     dashboard           个人空间概览 (余额、实例、镜像、存储)
     instance [status]   个人实例列表 (可选状态: RUNNING, CLOSED)
+    ssh [序号|实例ID]   SSH 连接到运行中的实例 (--list 查看列表)
     my-images           个人私有镜像列表
     file-storage        个人文件存储信息
     api-token [action]  管理API Token (list|create|edit|enable|disable|delete)
@@ -84,6 +88,12 @@ def main():
         from cfgpu_cli.commands.resources import run
         for rtype in ["container", "vm", "bare_metal"]:
             run(rtype)
+
+    elif command == "login":
+        from cfgpu_cli.commands.login import run
+        action = args[1] if len(args) > 1 else "guide"
+        cookie_value = args[2] if len(args) > 2 else None
+        run(action, cookie_value)
 
     elif command == "images":
         from cfgpu_cli.commands.images import run
@@ -173,6 +183,17 @@ def main():
         status = args[1] if len(args) > 1 else None
         page = int(args[2]) if len(args) > 2 else 1
         run(status, page)
+
+    elif command == "ssh":
+        from cfgpu_cli.commands.ssh import run
+        instance_id = None
+        show_list = False
+        for arg in args[1:]:
+            if arg == "--list":
+                show_list = True
+            else:
+                instance_id = arg
+        run(instance_id, show_list)
 
     elif command == "my-images":
         from cfgpu_cli.commands.console_image import run

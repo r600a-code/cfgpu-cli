@@ -48,6 +48,7 @@ AIGC 技术人员（算法工程师、AI 研究员、GPU 算力用户）的工�
 |------|--------------|---------|
 | 余额与存储概览 | 余额、代金券、实例数、镜像容量、文件存储分散在 4 个页面 | `dashboard` |
 | 实例列表与连接信息 | 9 个实例的 SSH 命令、Jupyter 链接、GPU/CPU 配置一次全看到 | `instance` |
+| SSH 一键连接 | 不用复制粘贴 SSH 命令，直接终端连接 | `ssh` |
 | 个人私有镜像管理 | 9 个镜像的大小、区域、来源、分享状态集中展示 | `my-images` |
 | 文件存储用量查看 | 各区域存储容量、已用空间、日费用一目了然 | `file-storage` |
 | API Token 全生命周期管理 | 创建/编辑/启用/禁用/删除 Token，不用打开网页逐个操作 | `api-token` |
@@ -71,6 +72,28 @@ AIGC 技术人员（算法工程师、AI 研究员、GPU 算力用户）的工�
 
 ## 快速开始
 
+### 首次使用 - 登录
+
+```bash
+# 1. 查看登录引导
+python3 -m cfgpu_cli login
+
+# 2. 打开登录页面（会在浏览器中打开）
+python3 -m cfgpu_cli login open
+
+# 3. 在浏览器中登录后，按 F12 打开开发者工具，在 Console 中执行：
+#    document.cookie
+#    复制输出的完整字符串
+
+# 4. 保存 cookie（用双引号包裹）
+python3 -m cfgpu_cli login save "<复制的cookie字符串>"
+
+# 5. 验证登录状态
+python3 -m cfgpu_cli login status
+```
+
+### 常用命令
+
 ```bash
 # 查看所有命令
 python3 -m cfgpu_cli
@@ -83,6 +106,12 @@ python3 -m cfgpu_cli search "4090"
 
 # 查看个人空间概览（需要登录）
 python3 -m cfgpu_cli dashboard
+
+# 调用 API 生图（需要登录）
+python3 -m cfgpu_cli generate-image "一只橘猫坐在窗台上看夕阳"
+
+# 在浏览器打开模型体验页（需要登录）
+python3 -m cfgpu_cli open-model seedream-5.0-lite
 ```
 
 ## 命令总览
@@ -125,6 +154,7 @@ python3 -m cfgpu_cli dashboard
 |------|------|------|
 | `dashboard` | 个人空间概览 | `dashboard` |
 | `instance [状态]` | 实例列表 | `instance RUNNING` |
+| `ssh [序号\|ID]` | SSH 连接到实例 | `ssh 1` 或 `ssh --list` |
 | `my-images` | 个人私有镜像 | `my-images` |
 | `file-storage` | 文件存储信息 | `file-storage` |
 | `api-token [操作]` | API Token 管理 | `api-token list` |
@@ -157,6 +187,7 @@ cfgpu-cli/
 │   │   ├── generate_image.py          # generate-image 命令（API 生图）
 │   │   ├── dashboard.py               # dashboard 命令
 │   │   ├── instance.py                # instance 命令
+│   │   ├── ssh.py                     # ssh 命令（SSH 连接实例）
 │   │   ├── console_image.py           # my-images 命令
 │   │   ├── file_storage.py            # file-storage 命令
 │   │   ├── api_token.py               # api-token 命令

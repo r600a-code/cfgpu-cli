@@ -59,6 +59,12 @@ def run():
     price                    价格速查表
     all                      列出所有资源
 
+  登录管理:
+    login                    显示登录引导
+    login status             检查登录状态
+    login open               打开登录页面
+    login save <cookie>      保存cookie
+
   模型平台:
     llm [provider]           大语言模型 (如: 深度求索, 千问, 字节跳动)
     video-models [provider]  视频生成模型 (如: Kling, 万相, 字节跳动)
@@ -80,6 +86,7 @@ def run():
   个人空间 (需要登录):
     dashboard                个人空间概览 (余额、实例、镜像、存储)
     instance [status]        个人实例列表 (可选状态: RUNNING, CLOSED)
+    ssh [序号|实例ID]        SSH 连接到运行中的实例 (--list 查看列表)
     my-images                个人私有镜像列表
     file-storage             个人文件存储信息
     api-token [action]       管理API Token (list|create|edit|enable|disable|delete)
