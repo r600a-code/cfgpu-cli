@@ -53,7 +53,16 @@ AIGC 技术人员（算法工程师、AI 研究员、GPU 算力用户）的工�
 | API Token 全生命周期管理 | 创建/编辑/启用/禁用/删除 Token，不用打开网页逐个操作 | `api-token` |
 | 开放 API 端点文档 | API 文档藏在前端 JS 里，逆向出来整理成可读文档 | `open-api` |
 
-### 四、开发与集成
+### 四、模型体验（本地调用）
+
+| 能力 | 解决了什么问题 | 对应命令 |
+|------|--------------|---------|
+| 终端直接生图 | 网页生图需要层层点击，无法脚本化 | `generate-image` |
+| 多模型切换 | 不同模型风格和价格不同，需要快速切换 | `generate-image --model` |
+| 自定义分辨率和比例 | 网页上调整参数需要多次点击 | `generate-image --resolution --ratio` |
+| 图片自动下载 | 网页生成后需要手动保存 | `generate-image --output` |
+
+### 五、开发与集成
 
 | 能力 | 解决了什么问题 | 对应命令 |
 |------|--------------|---------|
@@ -100,6 +109,16 @@ python3 -m cfgpu_cli dashboard
 | `image-models [提供商]` | 图像生成模型 | `image-models 字节跳动` |
 | `voice-models [提供商]` | 语音合成模型 | `voice-models MiniMax` |
 
+### 模型体验（需要登录）
+
+| 命令 | 功能 | 示例 |
+|------|------|------|
+| `generate-image <描述>` | API 调用生图 | `generate-image "一只橘猫"` |
+| `generate-image --model` | 切换模型 | `generate-image "猫" --model gpt-image-1` |
+| `generate-image --resolution` | 设置分辨率 | `generate-image "猫" --resolution 4K` |
+| `generate-image --ratio` | 设置宽高比 | `generate-image "猫" --ratio 16:9` |
+| `generate-image --output` | 指定输出路径 | `generate-image "猫" --output ./cat.jpg` |
+
 ### 个人空间（需要登录）
 
 | 命令 | 功能 | 示例 |
@@ -135,6 +154,7 @@ cfgpu-cli/
 │   │   ├── video_models.py            # video-models 命令
 │   │   ├── image_models.py            # image-models 命令
 │   │   ├── voice_models.py            # voice-models 命令
+│   │   ├── generate_image.py          # generate-image 命令（API 生图）
 │   │   ├── dashboard.py               # dashboard 命令
 │   │   ├── instance.py                # instance 命令
 │   │   ├── console_image.py           # my-images 命令
@@ -257,6 +277,16 @@ def run(param1: str = None, param2: int = 1):
 | `/api/filesystem/list.json` | POST | 文件存储列表 |
 | `/api/team/info.json` | POST | 团队/空间信息 |
 | `/api/team/selectAll.json` | POST | 团队列表 |
+
+### LLM 体验 API（需要 Cookie）
+
+| 端点 | 方法 | 功能 |
+|------|------|------|
+| `/llmExperience/v1/image/models` | POST | 生图模型列表 |
+| `/llmExperience/v1/image/getModelConfig` | POST | 获取模型配置（支持的生成模式、分辨率、宽高比等） |
+| `/llmExperience/v1/image/create` | POST | 创建生图任务 |
+| `/llmExperience/v1/image/batchGet` | POST | 批量获取生图结果 |
+| `/llmExperience/v1/image/page` | POST | 生图历史记录（分页） |
 
 ### 开放 API（使用 API Token 认证）
 
